@@ -1,0 +1,48 @@
+#header-main { 
+  display: flex;
+  align-items: center;
+
+  padding: 32px;
+}
+
+#header-main img {
+  object-fit: cover;
+}
+
+#header-main ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+
+  min-width: 280px;
+
+  text-decoration: none;
+  list-style: none;
+}
+
+#header-main ul li { 
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#header-main ul li img {
+  width: 24px;
+  height: 24px;
+}
+
+#bio-person {
+  max-width: 384px;
+  margin-inline: 32px auto;
+}
+
+#bio-person h1 {
+  font: var(--text-lg);
+  color: var(--text-color-primary);
+}
+
+#bio-person p {
+  font: var(--text-md);
+
+}
