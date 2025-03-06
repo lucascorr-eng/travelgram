@@ -1,0 +1,17 @@
+#galery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+
+  
+  width: 100%;  
+  padding-block: 24px;
+}
+
+#galery img {
+  object-fit: cover;
+  width: 22%;
+  height: 22%;
+}
