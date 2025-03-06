@@ -1,0 +1,16 @@
+#footer-main {
+  display: flex;
+  padding: 24px 32px;
+}
+
+.span-one {
+  margin-right: auto;
+}
+
+.span-two:nth-child(2) {
+  margin-right: 16px;
+}
+
+.span-two {
+  padding: 4px;
+}
