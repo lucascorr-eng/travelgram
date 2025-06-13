@@ -1,0 +1,31 @@
+.p-xy {
+  padding: 1rem;
+}
+
+.p-xy-md {
+  padding: 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.gap-0\.5 {
+  gap: 0.5rem;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.desktop-only {
+  display: none;
+}        

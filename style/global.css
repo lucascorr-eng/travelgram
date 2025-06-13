@@ -22,3 +22,22 @@
   --fw-md: 600;
   --fw-xl: 800;
 }
+
+/* css reset */
+* { 
+  padding: 0;
+  margin: 0;
+  text-decoration: 0;
+  font: inherit; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.header, .about {
+  background-color: var(--surface-color);
+}
+
+html {
+  font: var(--paragraph-md);
+  color: var(--text-color-secondary);
+}
