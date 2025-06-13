@@ -69,4 +69,45 @@
 }
 
 
+.imagens {
+  & img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (width >= 80em) {
+  .imagens {
+    padding: 1.5rem 2rem;
+
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;      
+  }
+}
+
+footer {
+  & img {
+    margin: auto;
+  }
+
+  align-items: center;
+  justify-content: center;
+}
+
+@media (width >= 80em) {
+  #container {
+    footer {
+      padding: 1.5rem 2rem;
+
+      display: flex; 
+      gap: 0;
+
+      & .img-copy {
+        display: block;
+       margin: 0 auto 0 0;
+      }
+    }
+  }
+}
+
 
